@@ -23,3 +23,9 @@ Zed → Extensions → **Install Dev Extension** → выбрать эту па�
 Расширение **Comments Highlighter** (`comment`) ставить не нужно: оба регистрируют язык `comment` и будут конфликтовать.
 
 При первой установке Zed скачает и соберёт грамматику `tree-sitter-comment`, для этого нужна сеть.
+
+## Лицензия
+
+[MIT](LICENSE).
+
+Цвета взяты из темы Islands Dark от JetBrains ([intellij-community](https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/themes/islands), Apache 2.0). Язык `comment` основан на [thedadams/zed-comment](https://github.com/thedadams/zed-comment) (MIT, см. `languages/comment/LICENSE`).
