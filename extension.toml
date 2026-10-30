@@ -1,0 +1,13 @@
+id = "islands-dark"
+name = "Islands Dark"
+version = "0.1.0"
+schema_version = 1
+authors = ["corvus278"]
+description = "Port of the JetBrains Islands Dark theme (WebStorm 2026.2) for Zed"
+repository = "https://github.com/mcar2107/zed-islands-dark"
+
+# Язык comment — форк thedadams/zed-comment 0.6.8 (MIT, см. languages/comment/LICENSE)
+# с правилом для doc-комментариев /** */ -> comment.doc
+[grammars.comment]
+repository = "https://github.com/thedadams/tree-sitter-comment"
+rev = "d6c715fa37c6086030875ae20adaec399441a45c"

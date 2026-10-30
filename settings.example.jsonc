@@ -1,0 +1,28 @@
+// Настройки Zed «как в WebStorm» к теме Islands Dark.
+// Скопируй нужное в свой settings.json (cmd-, / `zed: open settings`).
+// Требуется установленный шрифт JetBrains Mono: https://www.jetbrains.com/lp/mono/
+{
+  // Тема
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Islands Dark"
+  },
+
+  // Интерфейс: системный шрифт 13, как New UI WebStorm на macOS
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 13,
+
+  // Редактор: JetBrains Mono 13, межстрочный 1.2, без лигатур (дефолт WebStorm)
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "buffer_line_height": { "custom": 1.2 },
+  "buffer_font_features": { "calt": false },
+
+  // Терминал
+  "terminal": {
+    "font_family": "JetBrains Mono",
+    "font_size": 13,
+    "font_features": { "calt": false }
+  }
+}
